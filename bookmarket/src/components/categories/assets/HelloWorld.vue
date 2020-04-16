@@ -1,3 +1,6 @@
+<style scoped lang="scss">
+
+</style>
 <template>
   <div class="hello">
 
@@ -14,6 +17,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-</style>
+
+
+

@@ -24,7 +24,31 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  queue{
-		
-	}
+  .topHeader{
+    display: flex;
+    background-color: #707070;
+  }
+  .queue{
+    max-width: 1001px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+      &__link {
+        list-style-type: none;
+        color: #fff;
+        font-size: 20px;
+        margin: 4px 0;
+        padding-left: 20px;
+      }
+    }
+
+      
+  
+    
+
+
+    
+	
+
 </style>

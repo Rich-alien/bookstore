@@ -5,11 +5,21 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    isDropDownVisible: false,
   },
   mutations: {
+    CHANGE_DROPDOWN: (state) => {
+      state.isDropDownVisible =true
+    }
   },
   actions: {
+    TOGGLE_DROPDOWN({commit}) {
+      commit('CHANGE_DROPDOWN')
+    }
   },
-  modules: {
+  getters: {
+    DROPDOWN_STATE(state){
+      return state.isDropDownVisible;
+    }
   }
 })
